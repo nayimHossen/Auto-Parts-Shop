@@ -10,7 +10,7 @@ import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import NotFound from "./pages/notFound/NotFound";
 import Register from "./pages/register/Register";
-import ShopingCart from "./pages/shopingCart/shopingCart";
+import ShopingCart from "./pages/shopingCart/ShopingCart";
 
 function App() {
   return (
