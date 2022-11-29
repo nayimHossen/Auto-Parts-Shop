@@ -2,7 +2,7 @@ import React from "react";
 
 const TopBar = () => {
   return (
-    <div className="hidden lg:block">
+    <div className="hidden lg:block container mx-auto px-1">
       <div className="flex justify-between items-center gap-4 py-7">
         <div>
           <img
