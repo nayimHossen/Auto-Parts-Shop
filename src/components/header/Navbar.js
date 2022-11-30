@@ -3,10 +3,10 @@ import TopBar from "./TopBar";
 
 const Navbar = () => {
   return (
-    <header className="">
+    <header>
       <TopBar />
 
-      <nav className="bg-[#ff4545]">
+      <nav className="bg-white sm:bg-[#ff4545]">
         <div className="flex justify-between container mx-auto px-4 sm:px-1">
           {/* mobile responsive logo */}
           <div className="lg:hidden py-5">
@@ -41,7 +41,7 @@ const Navbar = () => {
 
           {/* mobile menu */}
           <div className="lg:hidden">
-            <div className="flex justify-center items-center gap-3 text-white text-3xl py-5">
+            <div className="flex justify-center items-center gap-3 text-[#ff4545] sm:text-white font-bold text-3xl py-5">
               <i class="ri-menu-line"></i>
             </div>
           </div>
