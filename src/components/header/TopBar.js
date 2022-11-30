@@ -41,7 +41,7 @@ const TopBar = () => {
           <input
             type="text"
             placeholder="Search"
-            className="input border-none rounded-full h-14"
+            className="input border-none bg-slate-100 rounded-full h-14"
           />
         </div>
       </div>

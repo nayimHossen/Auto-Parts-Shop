@@ -22,7 +22,7 @@ const HeroBanner = () => {
           backgroundImage: `url("https://klbtheme.com/chakta/wp-content/uploads/2021/01/hero-2_1.jpg")`,
         }}
       >
-        <div className="hero-overlay bg-opacity-25 bg-slate-900"></div>
+        <div className="hero-overlay bg-opacity-50 bg-slate-900"></div>
         <div className="text-center text-neutral-content ">
           <div>
             <div className="hidden sm:block text-white mx-auto max-w-3xl">
@@ -43,11 +43,11 @@ const HeroBanner = () => {
                 <select
                   required
                   defaultValue=""
-                  className="input min-w-[280px] h-16 rounded-none border-l-4 border-[#ff4545] bg-slate-100 text-slate-500 font-bold"
+                  className="input min-w-[275px] h-16 rounded-none border-l-4 border-[#ff4545] bg-slate-100 text-slate-400 font-samibold"
                   {...register("location")}
                 >
                   <option value="" disabled>
-                    Location
+                    Select Make
                   </option>
 
                   <option></option>
@@ -56,11 +56,11 @@ const HeroBanner = () => {
                 <select
                   required
                   defaultValue=""
-                  className="input w-full h-16 rounded-none border-l-4 border-[#ff4545] bg-slate-100 text-slate-500 font-bold"
+                  className="input w-full h-16 rounded-none border-l-4 border-[#ff4545] bg-slate-100 text-slate-400 font-samibold"
                   {...register("location")}
                 >
                   <option value="" disabled>
-                    Location
+                    Select Make First
                   </option>
 
                   <option></option>
@@ -70,11 +70,11 @@ const HeroBanner = () => {
                 <select
                   required
                   defaultValue=""
-                  className="input w-full h-16 rounded-none border-l-4 border-[#ff4545] bg-slate-100 text-slate-500 font-bold"
+                  className="input w-full h-16 rounded-none border-l-4 border-[#ff4545] bg-slate-100 text-slate-400 font-samibold"
                   {...register("category")}
                 >
                   <option value="" disabled>
-                    Category
+                    Select Year
                   </option>
                 </select>
                 {/*........search button..........*/}
