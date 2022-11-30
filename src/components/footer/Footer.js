@@ -1,7 +1,5 @@
 import React from "react";
-import { BiRightArrowAlt } from "react-icons/bi";
 import { GrFacebookOption } from "react-icons/gr";
-import ScrollToTop from "react-scroll-to-top";
 import {
   AiOutlineGooglePlus,
   AiOutlineTwitter,
@@ -12,23 +10,13 @@ import { MdLocationOn } from "react-icons/md";
 
 import { FiInstagram } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import BottomToTop from "../../utils/BottomToTop";
 
 const Footer = () => {
   return (
     <footer>
       {/* ......scroll to top button..... */}
-      <ScrollToTop
-        smooth
-        color="white"
-        width="25px"
-        height="25px"
-        style={{
-          backgroundColor: "tomato",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      />
+      <BottomToTop />
 
       <div className="bg-[#111111] py-16">
         <div className="grid px-5 sm:px-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 container mx-auto text-base-100">
