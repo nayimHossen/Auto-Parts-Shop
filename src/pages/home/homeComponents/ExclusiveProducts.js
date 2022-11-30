@@ -67,9 +67,9 @@ function ExclusiveProducts() {
             quam nihil molestiae consequatur vel illum dolorem
           </p>
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {products.map((product) => (
-            <div key={product._id} className="justify-center items-center p-5">
+            <div key={product._id} className="justify-center items-center">
               <div className="bg-[#f7f7f7] shadow-sm relative hover:cursor-pointer">
                 <img src={product.img} alt="product" />
                 <span className="badge bg-[#ff4545] text-white absolute top-2 left-2">
@@ -78,7 +78,7 @@ function ExclusiveProducts() {
               </div>
               <div className="mt-2 flex gap-2 justify-between items-start">
                 <div>
-                  <p className="font-bold text-base hover:text-[#ff4545] break-words hover:cursor-pointer duration-500">
+                  <p className="font-bold text-xl hover:text-[#ff4545] break-words hover:cursor-pointer duration-500">
                     {product.name}
                   </p>
                   <p className="font-bold mb-3 text-[#ff4545] hover:cursor-pointer duration-500">
@@ -92,12 +92,11 @@ function ExclusiveProducts() {
             </div>
           ))}
         </div>
-      </div>
-
-      <div className="flex justify-center">
-        <button className="btn border-2 rounded-full font-bold text-base">
-          View More Products<i class="ri-arrow-right-line ml-5"></i>
-        </button>
+        <div className="flex justify-center py-5">
+          <button className="btn border-2 rounded-full font-bold text-base">
+            View More Products<i class="ri-arrow-right-line ml-5"></i>
+          </button>
+        </div>
       </div>
     </section>
   );

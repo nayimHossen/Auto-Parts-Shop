@@ -4,6 +4,7 @@ import FeatureProduct from "./homeComponents/FeatureProduct";
 import HeroBanner from "./homeComponents/HeroBanner";
 import LogoSlider from "./homeComponents/LogoSlider";
 import PopulareCategory from "./homeComponents/PopulareCategory";
+import SubscribSection from "./homeComponents/SubscribSection";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <LogoSlider />
       <FeatureProduct />
       <ExclusiveProducts />
+      <SubscribSection />
     </main>
   );
 };
