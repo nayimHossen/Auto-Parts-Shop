@@ -80,7 +80,7 @@ const HeroBanner = () => {
                 {/*........search button..........*/}
                 <button
                   type="submit"
-                  className="btn rounded-none w-full h-16 duration-400 bg-[#ff4545] hover:bg-black py-3 text-white cursor-pointer font-bold"
+                  className="btn rounded-none w-full h-16 duration-300 bg-[#ff4545] hover:bg-black py-3 text-white cursor-pointer font-bold"
                 >
                   Find Auto Parts <i class="ri-arrow-right-line ml-5"></i>
                 </button>
