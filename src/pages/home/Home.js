@@ -1,4 +1,5 @@
 import React from "react";
+import ExclusiveProducts from "./homeComponents/ExclusiveProducts";
 import FeatureProduct from "./homeComponents/FeatureProduct";
 import HeroBanner from "./homeComponents/HeroBanner";
 import LogoSlider from "./homeComponents/LogoSlider";
@@ -11,6 +12,7 @@ const Home = () => {
       <PopulareCategory />
       <LogoSlider />
       <FeatureProduct />
+      <ExclusiveProducts />
     </main>
   );
 };

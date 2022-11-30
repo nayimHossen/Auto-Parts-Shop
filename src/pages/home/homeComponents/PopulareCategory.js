@@ -52,7 +52,9 @@ function PopulareCategory() {
                   <i class="ri-star-s-fill"></i>
                   <i class="ri-star-s-fill"></i>
                 </div>
-                <h4 className="font-bold text-2xl mb-3">{categorie.title}</h4>
+                <h4 className="font-bold text-2xl mb-3 hover:text-[#ff4545] hover:cursor-pointer duration-500">
+                  {categorie.title}
+                </h4>
                 <p className="text-sm text-slate-500 font-bold">
                   {categorie.description}
                 </p>
