@@ -6,6 +6,8 @@ import LogoSlider from "./homeComponents/LogoSlider";
 import PopulareCategory from "./homeComponents/PopulareCategory";
 import SubscribSection from "./homeComponents/SubscribSection";
 import BestSelling from "./homeComponents/BestSelling";
+import Blogs from "./homeComponents/Blogs";
+import CustomarReview from "./homeComponents/CustomarReview";
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
       <ExclusiveProducts />
       <SubscribSection />
       <BestSelling />
+      <CustomarReview />
+      <Blogs />
     </main>
   );
 };

@@ -5,6 +5,7 @@ import "react-slideshow-image/dist/styles.css";
 const buttonStyle = {
   width: "50px",
   height: "50px",
+  color: "#fff",
   background: "#ff4545",
   borderRadius: "50%",
   border: "0px",
