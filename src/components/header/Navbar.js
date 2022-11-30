@@ -1,12 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import TopBar from "./TopBar";
 
 const Navbar = () => {
+  // navbar sticky to when scroll start
+  const [stickyClass, setStickyClass] = useState("relative");
+
+  useEffect(() => {
+    window.addEventListener("scroll", stickNavbar);
+
+    return () => {
+      window.removeEventListener("scroll", stickNavbar);
+    };
+  }, []);
+
+  const stickNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      windowHeight > 70
+        ? setStickyClass(
+            "fixed top-0 left-0 z-50 bg-white transition duration-700 scroll-smooth shadow-lg"
+          )
+        : setStickyClass("relative");
+    }
+  };
+  // navbar sticky to when scroll end
+
   return (
     <header>
       <TopBar />
 
-      <nav className="bg-white sm:bg-[#ff4545]">
+      <nav className={`w-full bg-white sm:bg-[#ff4545] ${stickyClass}`}>
         <div className="flex justify-between container mx-auto px-4 sm:px-1">
           {/* mobile responsive logo */}
           <div className="lg:hidden py-5">
