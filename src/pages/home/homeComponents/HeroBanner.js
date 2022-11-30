@@ -17,7 +17,7 @@ const HeroBanner = () => {
   return (
     <section>
       <div
-        className="hero min-h-[515px]"
+        className="hero min-h-[515px] sm:min-h-[615px]"
         style={{
           backgroundImage: `url("https://klbtheme.com/chakta/wp-content/uploads/2021/01/hero-2_1.jpg")`,
         }}
@@ -29,7 +29,7 @@ const HeroBanner = () => {
               <h1 className="mb-1 text-5xl md:text-7xl lg:text-[85px] font-[1500]">
                 Find Auto Parts
               </h1>
-              <p className="text-xl font-bold">
+              <p className="text-sm md:text-xl font-bold">
                 More than 25038 parts available in our stocks
               </p>
             </div>
@@ -43,7 +43,7 @@ const HeroBanner = () => {
                 <select
                   required
                   defaultValue=""
-                  className="input min-w-[300px] h-16 rounded-none border-l-4 border-[#ff4545] bg-slate-100 text-slate-500 font-bold"
+                  className="input min-w-[280px] h-16 rounded-none border-l-4 border-[#ff4545] bg-slate-100 text-slate-500 font-bold"
                   {...register("location")}
                 >
                   <option value="" disabled>
