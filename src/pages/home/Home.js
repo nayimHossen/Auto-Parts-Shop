@@ -5,6 +5,7 @@ import HeroBanner from "./homeComponents/HeroBanner";
 import LogoSlider from "./homeComponents/LogoSlider";
 import PopulareCategory from "./homeComponents/PopulareCategory";
 import SubscribSection from "./homeComponents/SubscribSection";
+import BestSelling from "./homeComponents/BestSelling";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <FeatureProduct />
       <ExclusiveProducts />
       <SubscribSection />
+      <BestSelling />
     </main>
   );
 };
