@@ -14,12 +14,12 @@ const buttonStyle = {
 const properties = {
   prevArrow: (
     <button style={{ ...buttonStyle }}>
-      <i class="ri-arrow-left-s-line"></i>
+      <i className="ri-arrow-left-s-line"></i>
     </button>
   ),
   nextArrow: (
     <button style={{ ...buttonStyle }}>
-      <i class="ri-arrow-right-s-line"></i>
+      <i className="ri-arrow-right-s-line"></i>
     </button>
   ),
 };
@@ -142,7 +142,7 @@ const BestSelling = () => {
                 </p>
               </div>
               <div className="bg-[#fff4f4] hover:bg-[#ff4545] hover:text-white rounded-full text-[#575757] px-2 duration-300 hover:cursor-pointer py-1 border">
-                <i class="ri-shopping-cart-2-line"></i>
+                <i className="ri-shopping-cart-2-line"></i>
               </div>
             </div>
           </div>

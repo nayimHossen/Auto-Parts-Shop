@@ -24,13 +24,12 @@ const Footer = () => {
           <div>
             <div>
               <div>
-                <figure className="mb-4">
-                  <img
-                    src="https://klbtheme.com/chakta/wp-content/uploads/2021/01/logo-white.png"
-                    alt="logo"
-                    className="shrink-0 w-44"
-                  />
-                </figure>
+                <div className="mb-4">
+                  <div className="flex items-center">
+                    <i className="ri-settings-5-line text-4xl"></i>
+                    <h1 className="text-4xl font-bold">AutoParts</h1>
+                  </div>
+                </div>
                 <p className="mb-5 text-neutral text-sm">
                   Sed perspiciatis unde omnis natus error voluptatem accusan
                   doloreqe laudantium totam aperiam eaque sipsa quae abillo

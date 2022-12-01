@@ -46,11 +46,11 @@ function PopulareCategory() {
               </div>
               <div>
                 <div className="text-[gold]">
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
-                  <i class="ri-star-s-fill"></i>
+                  <i className="ri-star-s-fill"></i>
+                  <i className="ri-star-s-fill"></i>
+                  <i className="ri-star-s-fill"></i>
+                  <i className="ri-star-s-fill"></i>
+                  <i className="ri-star-s-fill"></i>
                 </div>
                 <h4 className="font-bold text-2xl mb-3 hover:text-[#ff4545] hover:cursor-pointer duration-500">
                   {categorie.title}
@@ -59,7 +59,7 @@ function PopulareCategory() {
                   {categorie.description}
                 </p>
                 <button className="text-white bg-[#ff4545] rounded-full font-bold px-3 py-1 mt-2">
-                  SHOP NOW <i class="ri-arrow-right-line ml-3"></i>
+                  SHOP NOW <i className="ri-arrow-right-line ml-3"></i>
                 </button>
               </div>
             </div>

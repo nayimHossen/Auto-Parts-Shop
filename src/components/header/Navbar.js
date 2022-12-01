@@ -43,11 +43,10 @@ const Navbar = () => {
         <div className="flex justify-between container mx-auto px-4 sm:px-1">
           {/* mobile responsive logo */}
           <div className="lg:hidden py-5">
-            <img
-              className="h-[40px]"
-              src="https://klbtheme.com/chakta/wp-content/uploads/2021/01/logo.png"
-              alt="logo"
-            />
+            <div className="flex items-center">
+              <i className="ri-settings-5-line text-4xl"></i>
+              <h1 className="text-4xl font-bold">AutoParts</h1>
+            </div>
           </div>
 
           <div className="hidden lg:block">
@@ -102,13 +101,13 @@ const Navbar = () => {
                 style={({ isActive }) => (isActive ? extraActive : undefined)}
                 to="/login"
               >
-                <i class="ri-user-fill"></i>
+                <i className="ri-user-fill"></i>
               </NavLink>
               <NavLink
                 style={({ isActive }) => (isActive ? extraActive : undefined)}
                 to="/cart"
               >
-                <i class="ri-shopping-cart-fill"></i>
+                <i className="ri-shopping-cart-fill"></i>
               </NavLink>
             </div>
           </div>
@@ -116,7 +115,7 @@ const Navbar = () => {
           {/* mobile menu */}
           <div className="lg:hidden">
             <div className="flex justify-center items-center gap-3 text-[#ff4545] sm:text-white font-bold text-3xl py-5">
-              <i class="ri-menu-line"></i>
+              <i className="ri-menu-line"></i>
             </div>
           </div>
         </div>

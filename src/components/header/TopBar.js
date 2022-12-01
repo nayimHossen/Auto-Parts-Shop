@@ -4,16 +4,13 @@ const TopBar = () => {
   return (
     <div className="hidden lg:block container mx-auto px-1">
       <div className="flex justify-between items-center gap-4 py-7">
-        <div>
-          <img
-            className="h-[40px]"
-            src="https://klbtheme.com/chakta/wp-content/uploads/2021/01/logo.png"
-            alt="logo"
-          />
+        <div className="flex items-center">
+          <i className="ri-settings-5-line text-4xl"></i>
+          <h1 className="text-4xl font-bold">AutoParts</h1>
         </div>
         <div className="flex items-center justify-center gap-3">
           <div className="bg-[#fff4f4] rounded-full text-[#ff4a6c] px-4 py-3">
-            <i class="ri-map-pin-line"></i>
+            <i className="ri-map-pin-line"></i>
           </div>
           <div>
             <span className="text-slate-500 text-sm font-bold">
@@ -26,7 +23,7 @@ const TopBar = () => {
         </div>
         <div className="flex items-center justify-center gap-3">
           <div className="bg-[#fff4f4] rounded-full text-[#ff4a6c] px-4 py-3">
-            <i class="ri-time-line"></i>
+            <i className="ri-time-line"></i>
           </div>
           <div>
             <span className="text-slate-500 text-sm font-bold">

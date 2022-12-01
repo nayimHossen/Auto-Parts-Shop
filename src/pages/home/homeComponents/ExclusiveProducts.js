@@ -86,7 +86,7 @@ function ExclusiveProducts() {
                   </p>
                 </div>
                 <div className="bg-[#fff4f4] hover:bg-[#ff4545] hover:text-white rounded-full text-[#575757] px-2 duration-300 hover:cursor-pointer py-1 border">
-                  <i class="ri-shopping-cart-2-line"></i>
+                  <i className="ri-shopping-cart-2-line"></i>
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ function ExclusiveProducts() {
         </div>
         <div className="flex justify-center py-5">
           <button className="btn border-2 rounded-full font-bold text-base">
-            View More Products<i class="ri-arrow-right-line ml-5"></i>
+            View More Products<i className="ri-arrow-right-line ml-5"></i>
           </button>
         </div>
       </div>

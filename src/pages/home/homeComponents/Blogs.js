@@ -46,7 +46,7 @@ function FeatureProduct() {
                 {categorie.description}
               </p>
               <button className="text-white bg-[#ff4545] rounded-full font-bold px-3 py-1 mt-2">
-                Read More <i class="ri-arrow-right-line ml-3"></i>
+                Read More <i className="ri-arrow-right-line ml-3"></i>
               </button>
             </div>
           </div>

@@ -24,7 +24,7 @@ function BottomToTop() {
           textAlign: "center",
         }}
       >
-        <i class="ri-arrow-up-s-line"></i>
+        <i className="ri-arrow-up-s-line"></i>
       </button>
     </div>
   );

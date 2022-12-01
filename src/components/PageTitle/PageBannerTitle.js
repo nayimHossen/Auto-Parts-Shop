@@ -16,7 +16,7 @@ const PageBannerTitle = ({ title, link }) => {
           <Link className="text-white text-xl" to="/">
             Home
           </Link>
-          <i class="ri-arrow-right-s-line text-white"></i>
+          <i className="ri-arrow-right-s-line text-white"></i>
           <h3 className="text-[#ff4545] text-xl">{link}</h3>
         </div>
       </div>

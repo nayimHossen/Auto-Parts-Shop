@@ -133,13 +133,13 @@ const BestSelling = () => {
                 </p>
                 <div className="mt-5 flex justify-between">
                   <div className="text-[gold]">
-                    <i class="ri-star-s-fill"></i>
-                    <i class="ri-star-s-fill"></i>
-                    <i class="ri-star-s-fill"></i>
-                    <i class="ri-star-s-fill"></i>
-                    <i class="ri-star-s-fill"></i>
+                    <i className="ri-star-s-fill"></i>
+                    <i className="ri-star-s-fill"></i>
+                    <i className="ri-star-s-fill"></i>
+                    <i className="ri-star-s-fill"></i>
+                    <i className="ri-star-s-fill"></i>
                   </div>
-                  <i class="ri-chat-quote-fill text-[#ff4545] text-3xl"></i>
+                  <i className="ri-chat-quote-fill text-[#ff4545] text-3xl"></i>
                 </div>
               </div>
             </div>
