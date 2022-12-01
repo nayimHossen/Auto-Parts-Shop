@@ -10,6 +10,7 @@ import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import NotFound from "./pages/notFound/NotFound";
 import Register from "./pages/register/Register";
+import Shop from "./pages/Shop/Shop";
 import ShopingCart from "./pages/shopingCart/ShopingCart";
 
 function App() {
@@ -20,9 +21,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/blogs" element={<Blog />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/categories" element={<Categories />} />
+        <Route path="/shop" element={<Shop />} />
         <Route path="/cart" element={<ShopingCart />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/login" element={<Login />} />

@@ -1,13 +1,13 @@
 import React from "react";
 import PageBannerTitle from "../../components/PageTitle/PageBannerTitle";
 
-const ShopingCart = () => {
+const Shop = () => {
   return (
     <div>
-      <PageBannerTitle title="Cart" link="Cart" />
-      <h2>shoping cart</h2>
+      <PageBannerTitle title="Products" link="Shop" />
+      <h3>This is shop</h3>
     </div>
   );
 };
 
-export default ShopingCart;
+export default Shop;

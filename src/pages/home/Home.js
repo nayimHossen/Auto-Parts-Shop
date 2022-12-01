@@ -8,10 +8,12 @@ import SubscribSection from "./homeComponents/SubscribSection";
 import BestSelling from "./homeComponents/BestSelling";
 import Blogs from "./homeComponents/Blogs";
 import CustomarReview from "./homeComponents/CustomarReview";
+import DynamicTitle from "../../components/PageTitle/DynamicTitle";
 
 const Home = () => {
   return (
     <main>
+      <DynamicTitle title="Home" />
       <HeroBanner />
       <PopulareCategory />
       <LogoSlider />
