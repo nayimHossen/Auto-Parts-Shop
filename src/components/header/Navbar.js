@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 import TopBar from "./TopBar";
 
 const Navbar = () => {
@@ -25,6 +26,15 @@ const Navbar = () => {
   };
   // navbar sticky to when scroll end
 
+  //active link
+  let activeStyle = {
+    backgroundColor: "black",
+  };
+
+  let extraActive = {
+    color: "black",
+  };
+
   return (
     <header>
       <TopBar />
@@ -42,23 +52,64 @@ const Navbar = () => {
 
           <div className="hidden lg:block">
             <ul className="flex justify-center items-center gap-1 text-white font-bold">
-              <li className="hover:bg-black py-6 px-5">HOME</li>
-              <li className="hover:bg-black py-6 px-5">ABOUT</li>
-              <li className="hover:bg-black py-6 px-5">SHOP</li>
-              <li className="hover:bg-black py-6 px-5">CATEGORIES</li>
-              <li className="hover:bg-black py-6 px-5">BLOG</li>
-              <li className="hover:bg-black py-6 px-5">CONTACT US</li>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/"
+              >
+                <li className="hover:bg-black py-8 px-5">HOME </li>
+              </NavLink>
+
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/about"
+              >
+                <li className="hover:bg-black py-8 px-5">ABOUT</li>
+              </NavLink>
+
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/shop"
+              >
+                <li className="hover:bg-black py-8 px-5">SHOP</li>
+              </NavLink>
+
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/categories"
+              >
+                <li className="hover:bg-black py-8 px-5">CATEGORIES </li>
+              </NavLink>
+
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/blog"
+              >
+                <li className="hover:bg-black py-8 px-5">BLOG </li>
+              </NavLink>
+
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/contact"
+              >
+                <li className="hover:bg-black py-8 px-5">CONTACT US</li>
+              </NavLink>
             </ul>
           </div>
 
           <div className="hidden lg:block">
-            <div className="flex justify-center items-center gap-3 text-white text-xl py-5">
-              <div>
+            <div className="flex justify-center items-center gap-3 text-white text-xl py-7">
+              <NavLink
+                style={({ isActive }) => (isActive ? extraActive : undefined)}
+                to="/login"
+              >
                 <i class="ri-user-fill"></i>
-              </div>
-              <div>
+              </NavLink>
+              <NavLink
+                style={({ isActive }) => (isActive ? extraActive : undefined)}
+                to="/cart"
+              >
                 <i class="ri-shopping-cart-fill"></i>
-              </div>
+              </NavLink>
             </div>
           </div>
 
