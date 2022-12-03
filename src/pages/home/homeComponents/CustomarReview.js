@@ -72,7 +72,7 @@ const BestSelling = () => {
 
   return (
     <section className="bg-slate-100">
-      <div className="py-16 container mx-auto px-5 sm:px-10">
+      <div className="py-10 sm:py-20 container mx-auto px-5 sm:px-10">
         <div className="text-center mb-10">
           <h1 className="text-3xl font-bold mb-4">Customer Reviews</h1>
           <p className="text-sm max-w-[591px] mx-auto text-slate-400">

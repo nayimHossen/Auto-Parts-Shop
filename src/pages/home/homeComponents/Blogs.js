@@ -20,7 +20,7 @@ function FeatureProduct() {
     },
   ];
   return (
-    <section className="container mx-auto px-5 sm:px-10 py-10 sm:py-16">
+    <section className="container mx-auto px-5 sm:px-10 py-10 sm:py-20">
       <div className="text-center mb-10">
         <h1 className="text-3xl font-bold mb-4">Latest News & Blog</h1>
         <p className="text-sm max-w-[591px] mx-auto text-slate-400">

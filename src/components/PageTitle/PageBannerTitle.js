@@ -10,8 +10,10 @@ const PageBannerTitle = ({ title, link }) => {
       }}
     >
       <DynamicTitle title={link} />
-      <div className="py-20 text-center font-bold bg-opacity-70 bg-slate-900">
-        <h2 className="text-7xl font-bold text-white mb-3">{title}</h2>
+      <div className="py-12 sm:py-20 text-center font-bold bg-opacity-70 bg-slate-900">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-3">
+          {title}
+        </h2>
         <div className="flex gap-2 justify-center items-center">
           <Link className="text-white text-xl" to="/">
             Home
