@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutBanner = () => {
   return (
-    <section className="container mx-auto px-5 sm:px-10 py-10 sm:py-16">
+    <section className="container mx-auto px-5 sm:px-10 py-10 sm:py-20">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 content-center">
         <div className="flex justify-center items-center">
           <img
