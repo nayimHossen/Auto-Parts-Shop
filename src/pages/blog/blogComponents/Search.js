@@ -6,7 +6,7 @@ const Search = () => {
   };
 
   return (
-    <div className="mb-5">
+    <div className="mb-7">
       <form onSubmit={handleSearch}>
         <input
           type="text"

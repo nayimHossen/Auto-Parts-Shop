@@ -1,7 +1,9 @@
 import React from "react";
 import PageBannerTitle from "../../components/PageTitle/PageBannerTitle";
 import Categories from "./blogComponents/Categories";
+import PopulerBlogs from "./blogComponents/PopulerBlogs";
 import Search from "./blogComponents/Search";
+import Tags from "./blogComponents/Tages";
 
 const BlogPage = () => {
   const blogs = [
@@ -38,6 +40,8 @@ const BlogPage = () => {
         <div className="md:w-[30%]">
           <Search />
           <Categories />
+          <PopulerBlogs />
+          <Tags />
         </div>
 
         <div className="md:w-[70%]">
