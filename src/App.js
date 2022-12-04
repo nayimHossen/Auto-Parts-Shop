@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/header/Navbar";
 import About from "./pages/about/About";
-import Blog from "./pages/blog/Blog";
+import BlogPage from "./pages/blog/BlogPage";
 import Categories from "./pages/categorie/Categories";
 import Checkout from "./pages/checkout/Checkout";
 import Contact from "./pages/contact/Contact";
@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog" element={<BlogPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/shop" element={<Shop />} />
